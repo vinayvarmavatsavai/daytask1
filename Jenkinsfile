@@ -43,7 +43,7 @@ pipeline {
             steps {
                 sh '''
                     docker rm -f static_site_container || true
-                    docker run -d -p 8199:80 --name static_site_container \
+                    docker run -d -p 8299:80 --name static_site_container \
                     $ECR_REGISTRY/$ECR_REPO_NAME:$IMAGE_TAG
                 '''
             }
