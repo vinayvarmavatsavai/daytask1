@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_REGION = 'us-east-1'
         ECR_REPO_NAME = 'static_website'
-        ECR_REGISTRY = '065786717905.dkr.ecr.us-east-1.amazonaws.com/vinayvarmavatsavai/static_website'
+        ECR_REGISTRY = '065786717905.dkr.ecr.us-east-1.amazonaws.com/vinayvarmavatsavai'
         IMAGE_TAG = 'latest'
         AWS_ACCESS_KEY_ID = "${AWS_ACCESS_KEY_ID}"
         AWS_SECRET_ACCESS_KEY = "${AWS_SECRET_ACCESS_KEY}"
